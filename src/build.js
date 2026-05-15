@@ -224,11 +224,8 @@ tr:last-child td { border-bottom: none; }
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
-p > img {
-  border: 1px solid var(--bold-border);
-}
+p img { display: inline-block; vertical-align: middle; }
 p img + img { margin-left: 0.5em; }
 figure { margin: 0.6em 0; }
 figure img {
@@ -517,11 +514,8 @@ tr:last-child td { border-bottom: none; }
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
-p > img {
-  border: 1px solid var(--bold-border);
-}
+p img { display: inline-block; vertical-align: middle; }
 p img + img { margin-left: 0.5em; }
 figure { margin: 0.6em 0; }
 figure img {

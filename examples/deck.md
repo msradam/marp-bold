@@ -156,27 +156,11 @@ sequenceDiagram
 
 ![w:220](adam.png) ![w:220](antony.png) ![w:220](clista.png)
 
-Inline images, sized with `![w:220]`. Adam, Antony, Clista.
+Inline images sized with `![w:220]`. Adam, Antony, Clista.
 
----
-
-![bg left:40%](clista.png)
-
-## Clista
-
-Senior researcher. Low friction tolerance.
-
-- Citations
-- Reproducibility
-- Plain text everywhere
-
----
-
-![bg right:45%](adam.png)
-
-## Adam
-
-Director of platform engineering. Reads source before docs.
+- `![w:220](file.png)` — explicit width
+- `![](file.png)` — natural size
+- Wrap in `<figure>` for caption and border
 
 ---
 
