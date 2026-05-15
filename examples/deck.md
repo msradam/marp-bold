@@ -150,14 +150,33 @@ sequenceDiagram
 
 ---
 
-![bg right:40% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Laborat%C3%B3rio_Bridge_logo.svg/320px-Laborat%C3%B3rio_Bridge_logo.svg.png)
+###### Image embedding
 
-## Background images
+## Three personas
 
-Marp's `![bg right:40%]` syntax puts an image in a half-slide pane.
+![w:220](adam.png) ![w:220](antony.png) ![w:220](clista.png)
 
-- Works with `bg left`, `bg right`, `bg cover`, `bg fit`
-- Image filters (`blur`, `brightness`) pass through
+Inline images, sized with `![w:220]`. Adam, Antony, Clista.
+
+---
+
+![bg left:40%](clista.png)
+
+## Clista
+
+Senior researcher. Low friction tolerance.
+
+- Citations
+- Reproducibility
+- Plain text everywhere
+
+---
+
+![bg right:45%](adam.png)
+
+## Adam
+
+Director of platform engineering. Reads source before docs.
 
 ---
 

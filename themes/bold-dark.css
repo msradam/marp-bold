@@ -173,6 +173,30 @@ td {
 }
 tr:last-child td { border-bottom: none; }
 
+/* Images — Marp canonical embedding (inline, ![bg], ![bg left/right]) */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+p > img {
+  border: 1px solid var(--bold-border);
+}
+p img + img { margin-left: 0.5em; }
+figure { margin: 0.6em 0; }
+figure img {
+  display: block;
+  border: 1px solid var(--bold-border);
+}
+figcaption {
+  font-family: var(--bold-font-sans);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--bold-text-secondary);
+  margin-top: 0.5em;
+  line-height: 1.4;
+}
+
 mark {
   background: var(--bold-highlight);
   color: var(--bold-text);
