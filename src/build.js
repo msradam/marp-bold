@@ -182,7 +182,7 @@ pre code {
   white-space: pre;
 }
 
-/* Syntax highlight — mapped to Bold palette */
+/* Syntax highlight, mapped to Bold palette */
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-built_in  { color: ${lv.accent}; font-weight: 600; }
@@ -220,7 +220,7 @@ td {
 }
 tr:last-child td { border-bottom: none; }
 
-/* Images — Marp canonical embedding (inline, ![bg], ![bg left/right]) */
+/* Images, Marp canonical embedding (inline, ![bg], ![bg left/right]) */
 img {
   max-width: 100%;
   height: auto;
@@ -362,7 +362,7 @@ function buildDark() {
  * @size 4:3 960px 720px
  *
  * Marp theme based on the Bold Design System by Laboratório Bridge / UFSC.
- * Dark variant — Bold dark palette by default.
+ * Dark variant, Bold dark palette by default.
  * Not affiliated with Laboratório Bridge or UFSC.
  * https://bold.bridge.ufsc.tech/
  *
@@ -510,7 +510,7 @@ td {
 }
 tr:last-child td { border-bottom: none; }
 
-/* Images — Marp canonical embedding (inline, ![bg], ![bg left/right]) */
+/* Images, Marp canonical embedding (inline, ![bg], ![bg left/right]) */
 img {
   max-width: 100%;
   height: auto;

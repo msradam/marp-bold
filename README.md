@@ -215,6 +215,10 @@ This is a personal project and is not affiliated with Laboratório Bridge, UFSC,
 
 The token values are taken from the public `bold-ui` npm package and will drift from upstream over time. Run `npm run build` after upgrading `bold-ui` to regenerate the themes.
 
+## Credits
+
+Persona illustrations in `examples/img/` by [Victoruler](https://www.flaticon.com/authors/victoruler) on [Flaticon](https://www.flaticon.com/).
+
 ## License
 
 MIT.

@@ -138,7 +138,7 @@ pre code {
   white-space: pre;
 }
 
-/* Syntax highlight — mapped to Bold palette */
+/* Syntax highlight, mapped to Bold palette */
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-built_in  { color: #0069D0; font-weight: 600; }
@@ -176,7 +176,7 @@ td {
 }
 tr:last-child td { border-bottom: none; }
 
-/* Images — Marp canonical embedding (inline, ![bg], ![bg left/right]) */
+/* Images, Marp canonical embedding (inline, ![bg], ![bg left/right]) */
 img {
   max-width: 100%;
   height: auto;
