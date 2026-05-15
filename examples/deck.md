@@ -156,7 +156,7 @@ sequenceDiagram
 
 ![w:220](img/aadam.png) ![w:220](img/antony.png) ![w:220](img/clista.png)
 
-Inline images sized with `![w:220]`. Adam, Antony, Clista.
+Inline images sized with `![w:220]`. Aadam, Antony, Clista.
 
 - `![w:220](file.png)`, explicit width
 - `![](file.png)`, natural size
